@@ -3,6 +3,8 @@ const express = require('express')
 const Strategy = require('passport-facebook').Strategy;
 let access_token = null;
 let fbprofile = null;
+require('dotenv').config({ path: '../env' });
+
 const router = new express.Router();
 const auth = require('../middleware/auth');
 const axios = require('axios');
