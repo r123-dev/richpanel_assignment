@@ -21,7 +21,7 @@ export default {
         login: ({email, password}) => {
           return http.post(url + '/login/', {email, password})
         },
-        register: ({email, name, password,secretCode}) => http.post(url + '/signUp/', {email, name, password,secretCode}),
+        register: ({email, name, password,secretCode}) => http.post(baseURL + '/signUp/', {email, name, password,secretCode}),
         logout: () => http.post(url + '/logout',config),
     }
   },
