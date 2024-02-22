@@ -1,7 +1,7 @@
 /* eslint-disable */ 
 import axios from "axios";
 
-export const backend_url = "https://fb-backend-assign.onrender.com/";
+export const backend_url = "http://localhost:5000/";
 const http = axios.create({
   baseURL: backend_url,
   headers: {

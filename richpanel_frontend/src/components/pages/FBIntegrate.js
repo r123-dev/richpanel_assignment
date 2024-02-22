@@ -3,7 +3,7 @@ import { AuthContext } from "../auth/context";
 import { useNavigate } from "react-router";
 import queryString from "query-string";
 import { Link } from "react-router-dom";
-import env from "react-dotenv";
+
 import { backend_url } from "../auth/api";
 
 const FBIntegrate = () => {
