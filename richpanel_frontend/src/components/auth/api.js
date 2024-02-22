@@ -1,7 +1,7 @@
 /* eslint-disable */ 
 import axios from "axios";
 
-export const backend_url = "http://localhost:5000/";
+export const backend_url = "http://richpanelbackend-env-2.eba-cryfkma2.ap-south-1.elasticbeanstalk.com/";
 const http = axios.create({
   baseURL: backend_url,
   headers: {
